@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Scale Calculator Web App</title>
+			<meta charset="UTF-8">
+			<link rel="stylesheet" type="text/css" href="style.css">
+		</head>
+		<body id="body">
+			<div class="title">
+				<h1 id="titleWeb">Scale Calculator Web App</h1>
+				<h2 id="descWeb">Calculate Scales</h2>
+			</div>
+			<div class="example">
+				<h2 id="titleExample">Example</h2>
+				<p id="questionExample"><strong>Question : (10 Meter Width x (1 Unit / 10 Meter)) x (10 Meter Length x (1 Unit / 10 Meter))</strong></p>
+				<p id="answerExample"><strong>Result : 1 Unit Width x 1 Unit Length</strong></p>
+			</div>
+			<div class="howDoes">
+				<h2 id="titleHowDoes">How does it work ?</h2>
+				<p id="descHowDoes">It will calulate your Scales <strong>Fast and Easy</strong><br>Insert values on <strong>Parameters</strong> below then press <strong>Calculate</strong></p>
+			</div>
+			<div class="content">
+				<h3 id="eText"></h3>
+				Width <input type="number" id="width" value="0"><br>
+				Length <input type="width" id="length" value="0"><br>
+				Type <select id="type">
+					<option value="unit">Unit</option>
+					<option value="meter">Meter</option>
+				</select><br>
+				Scale Unit/Meter <input type="number" id="unit" value="0"><input type="number" id="meter" value="0"><br>
+				<button id="calcButton" type="button">Calculate</button>
+				<h3 id="rText"></h3>
+			</div>
+			<div class="footer">
+				<h2 id="version"></h2>
+			</div>
+			<script src="script.js"></script>
+		</body>
+</html>

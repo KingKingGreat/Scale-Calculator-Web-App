@@ -1,0 +1,119 @@
+<style>
+	#a {
+
+	}
+	.title {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		right: 0px;
+		text-align: center;
+		background-color: rgb(0, 0, 150);
+		color: white;
+		width: 100%;
+	}
+	.example {
+		position: absolute;
+		top: 150px;
+		left: 0px;
+		right: 0px;
+		margin-left: 20px;
+		margin-right: 20px;
+		background-color: rgb(0, 0, 139);
+		border-radius: 10px;
+	}
+	.howDoes {
+		position: absolute;
+		top: 300px;
+		left: 0px;
+		right: 0px;
+		margin-left: 20px;
+		margin-right: 20px;
+		background-color: rgb(0, 0, 139);
+		border-radius: 10px;
+	}
+	.content {
+		position: absolute;
+		top: 440px;
+		left: 0px;
+		right: 0px;
+		margin-left: 20px;
+		margin-right: 20px;
+		padding-left: 10px;
+		background-color: rgb(0, 0, 139);
+		color: white;
+		border-radius: 10px;
+	}
+	.footer {
+		position: absolute;
+		top: 850px;
+		left: 0px;
+		right: 0px;
+		padding-left: 10px;
+		background-color: rgb(0, 0, 139);
+		color: white;
+	}
+	
+	#titleText {
+		margin-top: 5px;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	#descText {
+		margin-bottom: 5px;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	#titleExample {
+		margin-top: 20px;
+		margin-left: 20px;
+		margin-right: 20px;
+		color: white;
+	}
+	#questionExample {
+		margin-left: 20px;
+		margin-right: 20px;
+		color: rgb(255, 215, 0);
+	}
+	#answerExample {
+		margin-bottom: 20px;
+		margin-left: 20px;
+		margin-right: 20px;
+		color: rgb(255, 215, 0);
+	}
+	#titleHowDoes {
+		margin-top: 20px;
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-bottom: 20px;
+		color: white;
+	}
+	#descHowDoes {
+		margin-bottom: 20px;
+		margin-left: 20px;
+		margin-right: 20px;
+		color: rgb(0, 255, 255);
+	}
+	#rText {
+		color: rgb(0, 255, 0);
+	}
+	#eText {
+		color: rgb(255, 0, 0);
+	}
+	body {
+		background-color: rgb(25, 25, 112);
+		font-family: "Arial", "Helvetica", "sans-serif";
+		margin-bottom: 200px;
+	}
+	input, select {
+		margin: 20px;
+		background-color: rgb(0, 255, 255);
+		color: black;
+	}
+	button {
+		background-color: rgb(165, 42, 42);
+		padding: 5px;
+		color: white;	
+		border: 2px solid rgb(165, 50, 42);
+	}
+</style>
